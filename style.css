@@ -50,9 +50,7 @@ img{
     margin: auto;
     font-size: 50px;
     color: white;
-    transition: all;
-    transition-duration: 0.5s;
-    transition-timing-function: ease;
+    transition: all,0.5s,ease;
 }
 
 .result_screen_light{
@@ -77,9 +75,7 @@ img{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(5,1fr);
-    gap: 10px;
-    
-    
+    gap: 10px; 
 }
 
 .buttons_grid > *{
@@ -95,6 +91,10 @@ img{
     transition: all;
     transition-duration: 0.5s;
     transition-timing-function: ease; 
+}
+
+.press{
+    transform: scale(0.6);
 }
 
 .buttons_light{
